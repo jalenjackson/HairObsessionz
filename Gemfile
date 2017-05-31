@@ -15,6 +15,9 @@ gem 'pg', group: :production
 gem 'rails_12factor', group: :production
 
 gem 'bootstrap-sass'
+
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
